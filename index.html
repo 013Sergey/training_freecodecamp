@@ -1,1 +1,50 @@
-<h1 id="title">Форма опроса</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="STYLE.CSS" >
+</head>
+<body>
+    <div id="back">
+    <h1 id="title">Форма опроса</h1>
+    <p id="description">Для вас</p>
+    <form action="" id="survey-form">
+     <label id="name-label">Имя:</label>
+      <input type="text" placeholder="Имя" id="name" required>
+      <br>
+     <label id="email-label">Почта:</label>
+      <input type="email" placeholder="Почта" id="email" required>
+      <br>
+     <label id="number-label">Возраст:</label>
+      <input type="number" placeholder="Возраст" id="number" min="5" max="120">
+      <br>
+      <select id="dropdown">
+        <option disabled>Пункт 1</option>
+        <option>Пункт 2</option>
+        <option>Пункт 3</option>
+        <option>Пункт 4</option>
+      </select>
+      <br>
+      <input type="radio" name="1-2-3" value="1">Выбор 1<br>
+      <input type="radio" name="1-2-3" value="2">Выбор 2<br>
+      <input type="radio" name="1-2-3" value="3">Выбор 3
+      <br>
+      <input type="checkbox" value="one">One<br>
+      <input type="checkbox" value="two">Two<br>
+      <input type="checkbox" value="three">Three
+      <br>
+      <textarea id="comments" rows="10" cols="60">
+        Напишите свой комментарий сюда...
+      </textarea>
+      <br>
+
+
+
+     <input type="submit" id="submit">
+    </form>
+    </div>
+<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

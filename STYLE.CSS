@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    font-family: Arial black;
+    background: url(back.jpg);
+    
+}
+label {
+    display: block;
+}
+
+form {
+    background-color: rgba(238, 238, 238, 0.2);
+    margin-left: 20%;
+    margin-right: 20%;
+    
+} 
